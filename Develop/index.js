@@ -9,7 +9,7 @@ const generateMarkdown = require('./utils/generateMarkdown');
 if (!portfolioData.projects) {
     portfolioData.projects = [];
   }
-  return inquirer
+   inquirer
     .prompt([
       {
         type: 'input',
